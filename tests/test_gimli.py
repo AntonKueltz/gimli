@@ -1,4 +1,4 @@
-from binascii import unhexlify, hexlify
+from binascii import unhexlify
 from unittest import TestCase
 
 from gimli import gimli_hash, permutation
