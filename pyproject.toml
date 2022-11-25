@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gimli"
+version = "0.1.0"
+description = "Python bindings for the gimli reference implementation"
+authors = ["Anton Kueltz"]
+readme = "README.md"
+build = "build.py"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core", "setuptools"]
+build-backend = "poetry.core.masonry.api"
